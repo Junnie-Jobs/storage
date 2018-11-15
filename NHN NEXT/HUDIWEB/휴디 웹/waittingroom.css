@@ -1,0 +1,148 @@
+body {
+	background: url("background.jpg") no-repeat fixed;
+    background-size: 100% auto;
+	background-size: cover;
+	width: 100%;
+}
+
+.header{
+
+	width: 95%;
+	height: 60px;
+	border-bottom:1px solid #874A3E;
+	margin: 20px 2% 0 2%;
+
+}
+
+.header li {
+
+	display: inline-block;
+	float: right;
+	margin: 15px;
+	font-size: 20px;
+	font-style: #5B5854;
+}
+
+.empty {
+
+	width: 100%;
+	height: 50px;
+
+}
+
+
+.user1_area {
+
+width: 20%;
+height: 500px;
+border:1px solid black;
+box-sizing:border-box;
+margin-left: 5%;
+display:inline-block;
+}
+
+	.user1_area .user1_avartar {
+
+	width: 100%;
+	height: 60%;
+	/*	border:1px solid black;
+	box-sizing:border-box;*/
+	background: url("avartar1.png") no-repeat center center;
+	/*   background-size: 100% auto;
+	background-size: cover;*/
+	display: block;
+	}
+
+		.user1_area .user1_ready_button {
+
+		width: 80%;
+		height: 50px;
+		border:1px solid black;
+		box-sizing:border-box;
+		margin: 10px auto 0 auto;
+		line-height: 50px;
+		text-align: center;
+
+
+
+		}
+
+		.user1_area .user1_info{
+
+			width: 80%;
+			height: 20%;
+			border:1px solid black;
+			box-sizing:border-box;
+			margin: 10px auto 0 auto;
+
+		}
+
+.middle_area_box {
+
+width: 40%;
+height: 500px;
+border:1px solid black;
+box-sizing:border-box;
+display:inline-block;
+margin-left: 5%;
+}
+
+	.middle_area_box .chat_box {
+	width: 100%;
+	height: 60%;
+	border:1px solid black;
+	background: url("chat.png") no-repeat center center;
+	}
+
+	.middle_area_box .start_button {
+
+		width: 200px;
+		height: 80px;
+		border:1px solid black;
+/*		box-sizing:border-box;*/
+		margin: 30px auto 0 auto;
+	}
+
+.user2_area {
+
+width: 20%;
+height: 500px;
+border:1px solid black;
+box-sizing:border-box;
+margin-right: 5%;
+display:inline-block;
+float: right;
+}
+
+	.user2_area .user2_avartar {
+
+	width: 100%;
+	height: 60%;
+	/*	border:1px solid black;
+	box-sizing:border-box;*/
+	background: url("avartar2.png") no-repeat center center;
+	/*   background-size: 100% auto;
+	background-size: cover;*/
+	}
+
+		.user2_area .user2_ready_button {
+
+		width: 80%;
+		height: 50px;
+		border:1px solid black;
+		box-sizing:border-box;
+		margin: 10px auto 0 auto;
+		line-height: 50px;
+		text-align: center;
+		}
+
+			.user2_area .user2_info{
+
+			width: 80%;
+			height: 20%;
+			border:1px solid black;
+			box-sizing:border-box;
+			margin: 10px auto 0 auto;
+
+		}
+
